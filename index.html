@@ -30,6 +30,23 @@
         }
         section {
             margin-top: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -39,7 +56,44 @@
         <section>
             <h2>About</h2>
             <p>This is a simple test page for the GitHub repository.</p>
-            <p>This page will be updated with more content soon!</p>
+            <p>Here you can find information about my projects, skills, and how to contact me.</p>
+        </section>
+        
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Website Development</li>
+                <li>Project 2: Mobile App</li>
+                <li>Project 3: Data Analysis</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills & Technologies</h2>
+            <div class="skills-list">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Git</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Blog</h2>
+            <article>
+                <h3>Latest Updates</h3>
+                <p>Stay tuned for blog posts about technology, programming, and more!</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: example@email.com</p>
+                <p>GitHub: github.com/example</p>
+                <p>LinkedIn: linkedin.com/in/example</p>
+            </div>
         </section>
     </div>
 </body>
